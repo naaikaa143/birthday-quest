@@ -568,13 +568,13 @@ playClick();
 // ======================================
 // CHECK ANSWER
 // ======================================
-      const correctSound = new Audio("sounds/correct.mp3");
+      const correctSound = new Audio("correct.mp3");
 correctSound.volume = 0.6;
-      const wrongSound = new Audio("sounds/wrong.mp3");
+      const wrongSound = new Audio("wrong.mp3");
 wrongSound.volume = 0.5;
-      const clickSound = new Audio("sounds/click.mp3");
+      const clickSound = new Audio("click.mp3");
 clickSound.volume = 0.4;
-      const gameOverSound = new Audio("sounds/gameover.mp3");
+      const gameOverSound = new Audio("gameover.mp3");
 gameOverSound.volume = 0.6;
 function playClick(){
 
